@@ -2,4 +2,6 @@
 .vs
 *.db
 *.opendb
+.idea
+*.iml
 

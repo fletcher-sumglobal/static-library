@@ -1,13 +1,13 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C++ Express 2010
 
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "E:\sumglobal\native-samples-gradle\cpp\static-library\app\app.vcxproj", "{972E0126-44BB-3464-8CB8-B27E7AB4090C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "E:\static-library\app\app.vcxproj", "{4A7689BE-24EC-3305-91C6-40CDBE14DC99}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilitiesLib", "E:\sumglobal\native-samples-gradle\cpp\static-library\utilities\utilitiesLib.vcxproj", "{E4B77AA9-DEC8-3E6F-9F0E-634AC8F7EE2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilitiesLib", "E:\static-library\utilities\utilitiesLib.vcxproj", "{C8CB356B-FDB7-304C-8174-9EA2C2185A59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listLib", "E:\sumglobal\native-samples-gradle\cpp\static-library\list\listLib.vcxproj", "{D99395B9-9AE6-3E70-867A-78EE77C4E165}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listLib", "E:\static-library\list\listLib.vcxproj", "{89A903BD-FF11-3F26-8A28-27AEBD24344D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listDll", "E:\sumglobal\native-samples-gradle\cpp\static-library\list\listDll.vcxproj", "{B36424F8-9CFC-34B6-BDC2-A23C8036A0BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listDll", "E:\static-library\list\listDll.vcxproj", "{9C2B7202-C980-3670-8C30-690659596FB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +15,22 @@ Global
 		release|Win32=release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{972E0126-44BB-3464-8CB8-B27E7AB4090C}.debug|Win32.ActiveCfg = debug|Win32
-		{972E0126-44BB-3464-8CB8-B27E7AB4090C}.debug|Win32.Build.0 = debug|Win32
-		{972E0126-44BB-3464-8CB8-B27E7AB4090C}.release|Win32.ActiveCfg = release|Win32
-		{972E0126-44BB-3464-8CB8-B27E7AB4090C}.release|Win32.Build.0 = release|Win32
-		{E4B77AA9-DEC8-3E6F-9F0E-634AC8F7EE2D}.debug|Win32.ActiveCfg = debug|Win32
-		{E4B77AA9-DEC8-3E6F-9F0E-634AC8F7EE2D}.debug|Win32.Build.0 = debug|Win32
-		{E4B77AA9-DEC8-3E6F-9F0E-634AC8F7EE2D}.release|Win32.ActiveCfg = release|Win32
-		{E4B77AA9-DEC8-3E6F-9F0E-634AC8F7EE2D}.release|Win32.Build.0 = release|Win32
-		{D99395B9-9AE6-3E70-867A-78EE77C4E165}.debug|Win32.ActiveCfg = debug|Win32
-		{D99395B9-9AE6-3E70-867A-78EE77C4E165}.debug|Win32.Build.0 = debug|Win32
-		{D99395B9-9AE6-3E70-867A-78EE77C4E165}.release|Win32.ActiveCfg = release|Win32
-		{D99395B9-9AE6-3E70-867A-78EE77C4E165}.release|Win32.Build.0 = release|Win32
-		{B36424F8-9CFC-34B6-BDC2-A23C8036A0BE}.debug|Win32.ActiveCfg = debug|Win32
-		{B36424F8-9CFC-34B6-BDC2-A23C8036A0BE}.debug|Win32.Build.0 = debug|Win32
-		{B36424F8-9CFC-34B6-BDC2-A23C8036A0BE}.release|Win32.ActiveCfg = release|Win32
-		{B36424F8-9CFC-34B6-BDC2-A23C8036A0BE}.release|Win32.Build.0 = release|Win32
+		{4A7689BE-24EC-3305-91C6-40CDBE14DC99}.debug|Win32.ActiveCfg = debug|Win32
+		{4A7689BE-24EC-3305-91C6-40CDBE14DC99}.debug|Win32.Build.0 = debug|Win32
+		{4A7689BE-24EC-3305-91C6-40CDBE14DC99}.release|Win32.ActiveCfg = release|Win32
+		{4A7689BE-24EC-3305-91C6-40CDBE14DC99}.release|Win32.Build.0 = release|Win32
+		{C8CB356B-FDB7-304C-8174-9EA2C2185A59}.debug|Win32.ActiveCfg = debug|Win32
+		{C8CB356B-FDB7-304C-8174-9EA2C2185A59}.debug|Win32.Build.0 = debug|Win32
+		{C8CB356B-FDB7-304C-8174-9EA2C2185A59}.release|Win32.ActiveCfg = release|Win32
+		{C8CB356B-FDB7-304C-8174-9EA2C2185A59}.release|Win32.Build.0 = release|Win32
+		{89A903BD-FF11-3F26-8A28-27AEBD24344D}.debug|Win32.ActiveCfg = debug|Win32
+		{89A903BD-FF11-3F26-8A28-27AEBD24344D}.debug|Win32.Build.0 = debug|Win32
+		{89A903BD-FF11-3F26-8A28-27AEBD24344D}.release|Win32.ActiveCfg = release|Win32
+		{89A903BD-FF11-3F26-8A28-27AEBD24344D}.release|Win32.Build.0 = release|Win32
+		{9C2B7202-C980-3670-8C30-690659596FB8}.debug|Win32.ActiveCfg = debug|Win32
+		{9C2B7202-C980-3670-8C30-690659596FB8}.debug|Win32.Build.0 = debug|Win32
+		{9C2B7202-C980-3670-8C30-690659596FB8}.release|Win32.ActiveCfg = release|Win32
+		{9C2B7202-C980-3670-8C30-690659596FB8}.release|Win32.Build.0 = release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
