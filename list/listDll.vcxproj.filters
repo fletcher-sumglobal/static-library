@@ -30,6 +30,9 @@
     <ClCompile Include="src\main\cpp\size.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="build.gradle">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup Label="Headers">
     <ClInclude Include="src\main\public\linked_list.h">
@@ -38,10 +41,5 @@
     <ClInclude Include="src\main\headers\node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="build.gradle">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

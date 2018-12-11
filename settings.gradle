@@ -1,1 +1,3 @@
 include 'app', 'utilities', 'list'
+
+includeBuild 'ly-visual-studio'

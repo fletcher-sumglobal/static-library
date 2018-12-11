@@ -1,4 +1,16 @@
 allprojects {
     apply plugin: 'xcode'
-    apply plugin: 'visual-studio'
+    apply plugin: 'org.gradle.samples.ly-visual-studio' version '1.0'
+    apply plugin: 'maven-publish'
+
+    group = "org.gradle.cpp-samples"
+    version = "1.6"
+
+    publishing {
+        repositories {
+            maven {
+                url = '../repo'
+            }
+        }
+    }
 }
