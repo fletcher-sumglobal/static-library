@@ -1,10 +1,12 @@
+buildscript {
+    dependencies {
+        classpath "org.gradle.samples:ly-visual-studio:latest.integration"
+    }
+}
 allprojects {
     apply plugin: 'xcode'
     apply plugin: 'org.gradle.samples.ly-visual-studio' version '1.0'
     apply plugin: 'maven-publish'
-
-    group = "org.gradle.cpp-samples"
-    version = "1.6"
 
     publishing {
         repositories {
